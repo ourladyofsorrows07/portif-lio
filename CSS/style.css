@@ -119,7 +119,19 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
- 
+
+.escuro {
+background-color: #14162b;
+color: #f7ecd9;
+}
+
+.escuro .card {
+    background-color: #1f2240;
+}
+
+.escuro h2 {
+    color: #f4f1ea
+}
 
 @media (max-width: 600px) {
     header { 
